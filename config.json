@@ -1,1 +1,8 @@
-{}
+{
+    "token": null,
+    "guild": null,
+    "color": null,
+    "owner_id": null,
+    "prefix": null,
+    "debug": null
+}
