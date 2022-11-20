@@ -50,10 +50,3 @@ def debug(arg, dt=True, force=False, error=False):
             print(f"[{datetime.now().strftime('%d.%m | %H:%M:%S')}] {cmd_colors[color]}{arg}\u001b[0m")
         else:
             print(f"{cmd_colors[color]}{arg}\u001b[0m")
-
-
-def conv_list(values):
-    text = ""
-    for i in values:
-        text += f"{i}, "
-    return text[:-2]
